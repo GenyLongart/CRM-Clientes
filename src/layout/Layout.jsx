@@ -5,7 +5,7 @@ const Layout = () => {
     const location = useLocation()
     const actualUrl = location.pathname
 
-    console.log(location)
+
   return (
     <div className='md:flex md:min-h-screen'>
         
