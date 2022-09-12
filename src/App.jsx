@@ -8,7 +8,7 @@ import ViewClient from './pages/ViewClient'
 
 
 function App() {
-  console.log(import.meta.env)
+ 
   return (
     <BrowserRouter>
         <Routes>
