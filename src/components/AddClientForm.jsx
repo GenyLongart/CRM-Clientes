@@ -28,7 +28,7 @@ const AddClientForm = ({ cliente, cargando }) => {
       if(cliente.id) { 
         //Editando un registro 
 
-        const url = `http://localhost:4000/clientes/${cliente.id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`;
 
         respuesta = await fetch(url, {
           method: "PUT",
@@ -40,7 +40,7 @@ const AddClientForm = ({ cliente, cargando }) => {
         
       } else { 
         //Nuevo registro
-        const url = "http://localhost:4000/clientes";
+        const url = import.meta.env.VITE_API_URL;
 
       respuesta = await fetch(url, {
         method: "POST",
