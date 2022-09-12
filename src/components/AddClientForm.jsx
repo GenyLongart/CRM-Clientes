@@ -51,7 +51,7 @@ const AddClientForm = ({ cliente, cargando }) => {
       });
       }
       await respuesta.json();
-      navigate("/clients");
+      navigate("/");
       
     } catch (error) {
       console.log(error);
