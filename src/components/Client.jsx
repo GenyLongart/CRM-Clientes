@@ -18,14 +18,14 @@ const Client = ({cliente, handleEliminar}) => {
             type= 'button' 
             className='bg-yellow-500 hover:bg-yellow-600 block w-full text-white p-2 
             uppercase font-bold text-xs'
-            onClick={() => navigate(`/clients/${id}`)}>
+            onClick={() => navigate(`/${id}`)}>
                 Ver
             </button>
             <button 
             type= 'button' 
             className='bg-blue-600 hover:bg-blue-700 block w-full text-white p-2 
             uppercase font-bold text-xs mt-3'
-            onClick={() => navigate(`/clients/edit/${id}`)}>
+            onClick={() => navigate(`/edit/${id}`)}>
                 Editar
             </button>
             <button 
