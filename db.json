@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "gene actualizado",
+      "empresa": "bizarap",
+      "email": "correo@correo.com",
+      "telefono": "5266658",
+      "notas": "cliente pide reembolso",
+      "id": 1
+    },
+    {
+      "nombre": "Maritza fernanda",
+      "empresa": "Restobar",
+      "email": "correo@correo.com",
+      "telefono": "5266658",
+      "notas": "cliente consulta precios",
+      "id": 2
+    },
+    {
+      "nombre": "pedro",
+      "empresa": "estonoesradio",
+      "email": "correo@correo.com",
+      "telefono": "5266658",
+      "notas": "Cliente paga por adelantado",
+      "id": 3
+    }
+  ]
+}
